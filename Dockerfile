@@ -1,5 +1,5 @@
 FROM nginx:1.15-alpine
-MAINTAINER wish@baffedu.com
+MAINTAINER wish@baffedu.net
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 
