@@ -3,4 +3,5 @@ MAINTAINER wish@baffedu.net
 
 ADD nginx/conf.d/ /etc/nginx/conf.d/
 
-WORKDIR /usr/share/nginx/html/
+VOLUME /var/www/html
+WORKDIR /var/www/html
